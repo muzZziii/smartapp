@@ -12,7 +12,14 @@ import { Router } from '@angular/router';
 })
 export class AppComponent implements OnInit {
 
-  constructor(private authService: AuthService, private helperService: HelperService, private router: Router) {}
+  constructor(private authService: AuthService, private helperService: HelperService, private router: Router) {
+
+    // SMART.init({
+
+    // }).then(client => {
+
+    // });
+  }
 
 
 
